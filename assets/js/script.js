@@ -1,3 +1,4 @@
+// SELECT ELEMENTS 
 const header = document.querySelector("header")
 const scrollArrow = document.querySelector(".scroll-arrow")
 
