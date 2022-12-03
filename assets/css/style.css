@@ -94,12 +94,11 @@ header .icons-header {
 
 header .icons-header i {
     color: var(--background);
-    font-size: 22px;
+    font-size: 23px;
     cursor: pointer;
 }
 
 header .icons-header #menu-icon {
-    font-size: 32px;
     z-index: 10001;
     display: none;
 }

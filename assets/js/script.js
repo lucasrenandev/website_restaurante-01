@@ -1,6 +1,8 @@
 // SELECT ELEMENTS 
 const header = document.querySelector("header")
 const scrollArrow = document.querySelector(".scroll-arrow")
+const menuIcon = document.querySelector("#menu-icon")
+const navBar = document.querySelector(".navbar")
 
 // NORMAL SCROLL ON WINDOW
 window.addEventListener("scroll", function() {
@@ -21,6 +23,16 @@ const hiddenArrow = () => {
 }
 window.addEventListener("scroll", hiddenArrow)
 hiddenArrow()
+
+menuIcon.addEventListener("click", function() {
+    navBar.classList.toggle("active")
+    menuIcon.classList.toggle("bx-x")
+})
+
+window.addEventListener("scroll", function() {
+    navBar.classList.remove("active")
+    menuIcon.classList.remove("bx-x")
+})
 
 // ANIMATION SCROLL
 const sr = ScrollReveal({
