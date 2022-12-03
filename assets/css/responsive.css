@@ -124,4 +124,10 @@
     section.breakfast .breakfast-card .card {
         justify-content: center;
     }
+
+    section.breakfast .breakfast-card .card img {
+        max-width: 80px;
+        width: 100%;
+        height: auto;
+    }
 }
