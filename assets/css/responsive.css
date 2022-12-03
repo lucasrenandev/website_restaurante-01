@@ -74,10 +74,10 @@
 
     section.home {
         grid-template-columns: 1fr;
+        overflow: hidden;
     }
 
     section.home .home-content {
-        text-align: center;
         padding-top: 50px;
     }
 
@@ -91,6 +91,9 @@
         height: auto;
     }
 
+    section.breakfast .breakfast-card {
+        gap: 20px;
+    }
     section.about {
         grid-template-columns: 1fr;
     }
@@ -104,6 +107,10 @@
         width: 100%;
         height: auto;
     }
+
+    section.menu .menu-row .row:hover {
+        transform: scale(1);
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -114,7 +121,6 @@
 
 @media screen and (max-width: 430px) {
     section.breakfast .breakfast-card .card {
-        justify-content: space-between;
-        padding: 0 4%;
+        justify-content: center;
     }
 }

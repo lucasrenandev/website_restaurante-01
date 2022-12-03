@@ -196,6 +196,12 @@ section.breakfast .breakfast-card .card:hover {
     cursor: pointer;
 }
 
+section.breakfast .breakfast-card .card img {
+    max-width: 80px;
+    width: 100%;
+    height: auto;
+}
+
 /* ===== ABOUT SECTION ===== */
 
 section.about {
