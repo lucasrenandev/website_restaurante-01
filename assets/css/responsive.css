@@ -94,6 +94,7 @@
     section.breakfast .breakfast-card {
         gap: 20px;
     }
+
     section.about {
         grid-template-columns: 1fr;
     }
